@@ -1,9 +1,12 @@
+* {
+  background-color: #a9c796;
+}
 .container {
   width: 80%;
   margin: 0 auto;
 }
 header {
-  background: #900c3f;
+  background: #f9efd0;
 }
 
 header::after {
@@ -37,4 +40,13 @@ nav a {
   float: left;
   width: 240px;
   height: 80px;
+}
+
+.meeting {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+  padding-top: 20px;
 }
