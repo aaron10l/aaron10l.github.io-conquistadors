@@ -1,26 +1,53 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+body {
+  margin: 0;
+  background: #222;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #051a54;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 180px;
+  padding: 10px 0;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: #5d5d5d;
+  float: right;
 }
 
-.imglogo {
-  width: 120px;
-  padding: 0px;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.meeting {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 50%;
-  padding-top: 20px;
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 32px;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  background-color: #222;
 }
