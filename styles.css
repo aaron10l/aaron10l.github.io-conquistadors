@@ -1,47 +1,21 @@
 * {
-  background-color: #a9c796;
-}
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-header {
-  background: #f9efd0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 nav {
-  text-align: center;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #5d5d5d;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.imglogo {
+  width: 120px;
+  padding: 0px;
 }
-
-nav li {
-  display: inline-block;
-  margin-left: 60px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-nav a {
-  color: black;
-}
-
-.logo {
-  float: left;
-  width: 240px;
-  height: 80px;
-}
-
 .meeting {
   width: 900px;
   margin-left: auto;
