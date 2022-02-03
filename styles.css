@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #6D92A0;
+  background: #6d92a0;
   font-weight: 300;
   font-family: "Work Sans", sans-serif;
 }
@@ -24,7 +24,8 @@ header::after {
 .logo {
   float: left;
   width: 180px;
-  padding: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -55,15 +56,6 @@ nav a:hover {
   background-color: #102229;
 }
 
-.meeting {
-  width: 1000px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  border-radius: 50%;
-}
-
 .bottomtext {
   text-align: center;
 }
@@ -80,6 +72,7 @@ nav a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .carousel .carousel_item,
@@ -124,40 +117,52 @@ nav a:hover {
   margin-right: 20px;
 }
 
-.whatwedotext{
+.whatwedotext {
   padding: 1%;
   box-sizing: border-box;
   min-height: 500px;
   background-color: #102229;
-  
 }
 
-.whatwedotext h3{
+.whatwedotext h3 {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.whatwedotext h2{
+.whatwedotext h2 {
   font-size: 40px;
 }
 
-.left-col, .right-col{
+.left-col,
+.right-col {
   width: 25%;
   float: left;
   text-align: center;
   color: whitesmoke;
   min-height: 500px;
-
 }
 
-.center-col{
+.center-col {
   width: 50%;
   float: left;
   text-align: center;
   color: whitesmoke;
 }
 
+.whatsappicon {
+  color: whitesmoke;
+}
 
+.footercontainer {
+  margin: 0 auto 0;
+  width: auto;
+  text-align: center;
+  background-color: #022735;
+  display: block;
+  padding: 1px;
+  color: whitesmoke;
+  font-size: 12px;
+}
 @keyframes fadeVisibility {
   0% {
     opacity: 0;
