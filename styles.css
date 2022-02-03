@@ -157,10 +157,6 @@ nav a:hover {
   color: whitesmoke;
 }
 
-.whatsapplogo{
-  border-radius: 25px;
-  width: 25px;
-}
 
 @keyframes fadeVisibility {
   0% {
