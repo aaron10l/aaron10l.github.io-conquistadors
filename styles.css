@@ -10,6 +10,7 @@ body {
   background: #6d92a0;
   font-weight: 300;
   font-family: "Work Sans", sans-serif;
+  height: 100%;
 }
 
 .nav-list {
@@ -42,10 +43,6 @@ body {
 
 .logo {
   width: 200px;
-}
-
-.bottomtext {
-  text-align: center;
 }
 
 .imgformat {
@@ -105,37 +102,22 @@ body {
   margin-right: 20px;
 }
 
-.whatwedotext {
-  padding: 1%;
-  box-sizing: border-box;
-  min-height: 500px;
-  background-color: #102229;
-  display: block;
+.even-columns {
+  display: flex;
+  flex-direction: row;
+  background-color: #022735;
+  height: 400px;
 }
 
-.whatwedotext h3 {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.whatwedotext h2 {
-  font-size: 40px;
-}
-
-.left-col,
-.right-col {
-  width: 25%;
-  float: left;
+.col {
   text-align: center;
   color: whitesmoke;
-  min-height: 500px;
+  padding: 10px;
+  flex-grow: 1;
 }
 
-.center-col {
-  width: 50%;
-  float: left;
-  text-align: center;
-  color: whitesmoke;
+.even-columns > * {
+  flex: 1 100%;
 }
 
 .whatsappicon {
