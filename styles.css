@@ -106,14 +106,27 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #022735;
-  height: 400px;
+  min-height: fit-content;
 }
 
 .col {
   text-align: center;
   color: whitesmoke;
   padding: 10px;
+  width: 33.3333%;
   flex-grow: 1;
+}
+
+.col p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.col h2 {
+  border-width: 2px 0 2px 0;
+  border-style: solid;
+  border-color: whitesmoke;
+  color: #6d92a0;
 }
 
 .even-columns > * {
@@ -133,6 +146,7 @@ body {
   padding: 1px;
   color: whitesmoke;
   font-size: 12px;
+  border: 2px solid whitesmoke;
 }
 @keyframes fadeVisibility {
   0% {
@@ -141,5 +155,13 @@ body {
   100% {
     opacity: 1;
     transform: opacity linear;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .even-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
