@@ -13,32 +13,22 @@ body {
   height: 100%;
 }
 
-.nav-list {
+.navbar {
   background-color: #022735;
+  height: 50px;
   display: flex;
-  justify-content: flex-end;
+}
+.navbar a {
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
   align-items: center;
-}
-
-.nav-item {
-  list-style: none;
-  margin-right: 2rem;
-}
-
-.nav-item a {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
 }
 
-.nav-item a:hover {
-  padding: 10px;
-  background-color: #6d92a0;
-  transition: all 200ms ease-in;
-}
-
-.nav-item:first-child {
-  margin-right: auto;
-  margin-left: 3rem;
+.navbar a:hover {
+  background-color: #022735;
 }
 
 .logo {
@@ -106,7 +96,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #022735;
-  min-height: fit-content;
+  min-height: 500px;
 }
 
 .col {
@@ -163,5 +153,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
   }
 }
