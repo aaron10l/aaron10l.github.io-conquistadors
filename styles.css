@@ -1,31 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
-*{
-  font-family: 'Noto Sans', sans-serif;
+* {
+  font-family: "Noto Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
-
-.logo{
-  width: 12vw;
+/*this is the code for the navbar of the website.*/
+.logo {
+  width: 8vw;
 }
 
-.navbar{
+.navbar {
   background-color: #1f2937;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   align-items: center;
 }
 
-.navbar > *{
+.navbar > * {
   flex-grow: 1;
 }
 
-.navbar .right{
+.navbar .left {
+  margin-left: 15vw;
+}
+
+.navbar .right {
   display: flex;
   justify-content: flex-end;
-
+  margin-right: 15vw;
 }
-ul{
+ul {
   display: flex;
+  gap: 1em;
+  list-style: none;
+}
+
+.navbar .right a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/*this is the code for the portion below the navbar of the website, the intro page.*/
+.meeting1 {
+  width: 30vw;
+  height: 40vh;
+  border-radius: 5%;
+}
+
+.sectiontwo > * {
+  flex-basis: 100%;
+}
+
+.sectiontwo button {
+  width: 4vw;
+  height: 2vh;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 2px;
+  margin-top: 1vh;
+}
+
+.sectiontwo h2 {
+  font-size: 48px;
+  display: flex;
+  color: #f9faf8;
+  width: 25vw;
+}
+
+.sectiontwo p {
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 20vw;
+}
+
+.sectiontwo {
+  display: flex;
+  background-color: #1f2937;
+  height: 50vh;
+  align-items: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.sectiontwo .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectiontwo .right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*this is the start of the third section, the one with the images. */
+.sec3images {
+  width: 18vw;
+  border-radius: 12px;
+  border: solid #3882f6 4px;
+}
+
+.sectionthree h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.sectionthree {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.sectionthree .top {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  align-items: center;
+}
+
+.sectionthree .bottom {
+  display: flex;
+}
+
+.sectionthree .bottom > * {
+  flex-basis: 100%;
+}
+
+.sectionthree .bottom .leftpic {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sectionthree .bottom .rightpic {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10vw;
 }
